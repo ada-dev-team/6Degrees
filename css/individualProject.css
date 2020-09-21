@@ -1,0 +1,27 @@
+.mobile-Nav{
+  position: fixed;
+  width: 100vw;
+  z-index: 4;
+  opacity: 8;
+  background-color: white;
+  animation: mymove 10s;
+} 
+
+@keyframes mymove {
+  from {background-color:transparent;}
+  to {background-color: white;}
+}
+
+
+
+ /* -Large devices (ipad pro) */
+ @media (min-width: 992px) { 
+
+
+  .mobile-Nav{
+      transform: translateX(840px);
+    }
+}
+
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {}

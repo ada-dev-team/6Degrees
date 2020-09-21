@@ -1,0 +1,228 @@
+body, html {
+    height: 100%;
+  }
+
+
+ .mobile-Nav{
+     position: fixed;
+  } 
+
+  /* Scroll bar */
+body::-webkit-scrollbar {
+  width: 0.2em;
+}
+
+body::-webkit-scrollbar-thumb {
+background-color:  gray;
+outline: 1px solid rgb(7, 7, 7);
+
+}
+
+  .MediaDiv{
+    /* 
+        font-size: 1.5em; */
+        z-index: 20;
+        /* margin-left:-2vw; */
+    }
+
+
+/* Navbar for mobile*/
+.overlay{
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left:-100vw;
+    top: 0;
+    left: 0;
+    background-color: rgb(241, 234, 234);
+    color: rgb(12, 12, 12);
+    overflow: hidden; 
+    transition: 0.5s;
+  }
+
+.overlay-content ul{
+   list-style: none;
+ }
+
+  /* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%; 
+    text-align: center; 
+    margin-top: 30px; 
+}
+
+  /* The navigation links inside the overlay */
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: black;
+    display: block; 
+    transition: 0.3s; 
+    font-size: 1.5em;
+}
+
+  /* Position the close button (top right corner) */ 
+.overlay .closebtn {
+    position: absolute;
+    right: 35px;
+    top: 2px;
+    font-weight: 900;
+  }
+
+ /*media icons */
+.icon{
+    display: inline-block;
+    font-size: 1.5em;
+    border: 1.5px solid white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 2px;
+}
+  /* media icons */
+  .icon.mobile{
+    float: right;
+    color: white;
+  }
+
+ /* burger navbar */
+.Bars{
+    margin-left: -5vw;
+}
+
+.Desktop{
+    display: none;
+
+}
+
+/* navbar */
+.navbar-expand-lg{
+    color: black;
+    font-size: 1.5em;
+}
+
+  a {
+    color: black;
+  }
+
+
+  /* footer */
+  .icon{
+    display: inline-block;
+    font-size: 1.5em;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 50px;
+    background-color: rgb(128,128,128);
+}
+
+.icon a:hover{
+  color: #000;
+}
+  a:hover{
+      color: rgb(128,128,128);
+  }
+  
+  .parallax {
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .zero{
+    background-image: url('https://cifa.org.za/wp-content/uploads/2020/04/08.-Darryl-Croome_Waters-Edge-1-scaled.jpg');
+  
+  }
+
+  .one{
+    background-image: url('https://gsquared.co.za/wp-content/uploads/2019/08/GSQUARED-Exterior-3-2400x1600.jpg');
+  }
+
+  .two{
+    background-image: url('https://www.vpang.com/wp-content/uploads/2019/06/architecture_m1_re-4.jpg');
+  }
+
+  .three{
+    background-image: url('https://images.adsttc.com/media/images/5d67/9f09/284d/d1be/6000/0109/newsletter/02_ZQ.jpg?1567071993');
+  }
+
+  .four{
+    background-image: url('https://www.thespruce.com/thmb/d_v15Xvrf64drPPsUzNFLHPj2OM=/3024x3024/filters:fill(auto,1)/pixasquare-4ojhpgKpS68-unsplash-ca4afd459306430ab50c2cc32ce2715d.jpg');
+  }
+  .five{
+    background-image: url('https://www.architecturalrecord.com/ext/resources/Issues/2016/May/1605-Architecture-Creativity-Zaha-Hadid-01.jpg?1461696438');
+  }
+
+  .navbar{
+      position: fixed;
+  }
+
+  .social{
+      z-index: 2;
+      position: fixed;
+  }
+
+ 
+
+  .media{
+      color: white;
+      display: inline-block;
+  }
+
+  
+/* -Large devices (ipad pro) */ 
+@media (min-width: 992px) { 
+  .mobile-only{
+      display: none;
+  }
+  .Desktop{
+  display: block;
+  color: black;
+  }  
+  .DesktopOnly{
+      display: block;  
+  }
+
+  .navbar-nav{
+    transform: translate(750px);
+  }
+  .navbar-nav{
+margin-left: -10vw;
+  }
+
+}
+
+    
+ 
+ @media screen and (min-width: 1200px) {
+
+  /* landing page media icons */
+  .social{
+    transform: translate(750px,715px);
+    margin-top: -5vh;
+ 
+
+}
+
+.show-on-mobile{
+  display: none;
+}
+     
+ 
+   }
+  
+ @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {}

@@ -1,0 +1,30 @@
+.mobile-Nav{
+  display: block;
+  color: black;
+      z-index: 2;
+      position: fixed;
+}
+.navbar{
+  position: fixed;
+    
+  }
+
+
+
+ /* -Large devices (ipad pro) */
+ @media (min-width: 992px) { 
+
+  .Desktop{
+    display: block;
+    color: black;
+        z-index: 2;
+        position: fixed;
+    } 
+
+  .mobile-Nav{
+      transform: translateX(840px);
+    }
+}
+
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {}
