@@ -492,7 +492,7 @@ font-size: 2em;
 
     
 
-    /* Portfolio page:Lesedi */
+    /* Portfolio page:Lesedi Maleka */
     .PortfolioDiv.PortfolioBlock .PortfolioImage .PortfolioDivText{
         opacity: 0;
     }
@@ -592,7 +592,7 @@ font-size: 2em;
         .IntialNavbar{
             background-color: white;
             height: 20vh;
-            margin-left: -2vh;
+            margin-left: -3.2vh;
         }
         .nav-link{
             color: gray;   
@@ -616,7 +616,7 @@ font-size: 2em;
         transform: translate(-0.2vw,2vh);
     }
     .IntialNavbarLogoImage{
-        transform: translate(2vw,2vh);
+        transform: translate(3vw,2vh);
     }
 
     .navbar-nav{
@@ -624,7 +624,7 @@ font-size: 2em;
         
       }
       .SecondNav{
-        transform: translate(545px,-80px);
+        transform: translate(541px,-80px);
         text-transform: lowercase;
         font-weight: 300;
         font-size: 0.8em;
@@ -634,7 +634,7 @@ font-size: 2em;
 /* Landing page */
 
 
-/* Portfolio page :Lesedi */
+/* Portfolio page :Lesedi Maleka*/
 .PortfolioDiv.PortfolioBlock .PortfolioImage .PortfolioDivText .PortfolioHeading{
     margin-top: -23vh;
 }
@@ -683,13 +683,13 @@ font-size: 2em;
     width: 100vw;
    
 } */
-  /* Contact Page :Lesedi */
+  /* Contact Page :Lesedi Maleka*/
 .FormButton{
     width: 15vw;
     margin-left: 12vw;
 }
 
-/* Studio page.Adam section */
+/* Studio page.About founder Adam section */
 .AdamText{
     margin-left: -7vw;
 }
@@ -769,7 +769,7 @@ padding: 20vh;
 /* margin-bottom: 10vh; */
 }
 
-/* Services page:Tshepo */
+/* Services page:Tshepo Makgetsi*/
 .hide{
     display: none;
 }
