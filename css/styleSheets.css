@@ -110,7 +110,8 @@ p{
 }
 h3{
     text-align: left;
-    margin-left: 1vw;
+    margin-left: 14vw;
+    font-size: 1.4em;
 }
 
 .responsive{
@@ -228,7 +229,7 @@ h4{
     background-size: cover;
   }
   .blockDivs{
-    margin-top: -30vh !important;
+    margin-top: -52vh !important;
 }
 
   .social{
@@ -570,6 +571,7 @@ font-size: 2em;
     z-index: 10;
 }
 
+/*The projects adding space */
 
 
 }
@@ -672,10 +674,7 @@ font-size: 2em;
     /* Full height */
     height: 100%; 
 }
-.blockDivs{
-    padding-top: 20vh !important;
-    margin-top: 5vh !important;
-}
+
 
 
 
@@ -805,7 +804,19 @@ padding: 20vh;
         margin-bottom: 2vh;
         font-weight: 100 !important;
     }
+
+    /* The individual pages for the project pages */
+    .blockDivs{
+        margin-top: 36vh !important;
+        margin-left: 6vw;
+    }
  
+
+    h3{
+       
+        margin-left: 12vw;
+        font-size: 1.4em;
+    }
    }
   
  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {}
