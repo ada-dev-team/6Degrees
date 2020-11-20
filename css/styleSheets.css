@@ -626,7 +626,7 @@ font-size: 2em;
       .SecondNav{
         transform: translate(541px,-80px);
         text-transform: lowercase;
-        font-weight: 300;
+        font-weight: 350;
         font-size: 0.8em;
         color: gray;
         margin-bottom: 6vh;
