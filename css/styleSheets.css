@@ -706,9 +706,11 @@ font-size: 2em;
 .ContactBlock{
     margin-top: -7vh !important;
 }
+
+
 /* Studio footer section */
 .ContactFooter{
-    margin-top: 14vh;
+    margin-top: 20vh;
 }
 .StudioFooter{
     margin-top: 19vh;
@@ -816,6 +818,10 @@ padding: 20vh;
        
         margin-left: 1.2vw;
         font-size: 1.4em;
+    }
+    /* contact section: Contact heading */
+    .placeContacteHeading{
+        padding-left: 1vw;
     }
    }
   
