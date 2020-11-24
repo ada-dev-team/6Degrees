@@ -193,7 +193,8 @@ h4{
 
  /* burger navbar */
 .Bars{
-    margin-left: -5vw;
+    margin-left: -1.3vw;
+    margin-top: 2vh;
 }
 
 
@@ -496,7 +497,7 @@ font-size: 2em;
     margin-top: 20vh !important;
 }
 .IndexFooter{
-    margin-top: 20vh !important;
+    margin-top: 15vh !important;
 }
 
 #PortImage{
@@ -758,7 +759,10 @@ height: 72vh;
   .CopyText{
     margin-top: -2vh;
 }
-
+/* index images */
+.HomePageImages{
+    margin-top: -2vh;
+}
 
 
     
