@@ -498,6 +498,12 @@ font-size: 2em;
 .IndexFooter{
     margin-top: -10vh !important;
 }
+
+#PortImage{
+    width: 100vw !important;
+    height: 40vh;
+    margin-left: 0vw;
+}
    /* ---media queries */
  
  /* // Extra small devices (portrait phones, less than 576px) */
@@ -680,11 +686,13 @@ font-size: 2em;
 #PortImage{
     width: 96vw !important;
     margin-left: 2vw;
-    /* height: 95%; */
+    height: 97vh;
 }
 
+
+
 .parallax {
-    /* Full height */
+
     height: 100vh; 
 }
 .parallaxIndex  {
