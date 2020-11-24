@@ -111,7 +111,7 @@ p{
 h3{
     text-align: left;
     margin-left: 5.5vw;
-    font-size: 1.4em;
+    font-size: 1.3em;
 }
 
 .responsive{
@@ -290,7 +290,10 @@ h4{
 .hideMobile{
     display: none;
 }
-
+/* Homepage Images */
+.HomePageImages{
+    margin-bottom: 20vh;
+}
 
 /* Portfolio page,About us and contact page:Lesedi */
 /* about us page */
@@ -428,7 +431,7 @@ h4{
 
  .icons{
     display: inline-block;
-    font-size: 1.1em;
+    font-size: 0.95em;
     border-radius: 50%;
     height: 40px;
     width: 40px;
@@ -438,15 +441,16 @@ h4{
 }
  .CopyText{
     text-align: center;
-    font-size: 14px;
+    font-size: 10px;
     font-weight:400 ;
     color: #000;
+    margin-top: -4vh;
 }
 .FullName{
     color:#000;
 }
 .FullName:hover,a:hover{
-    color:gray;
+    color:rgb(3, 3, 3);
 }
 
 
@@ -490,6 +494,9 @@ font-size: 2em;
 /* footer section contact page */
 .ContactFooter{
     margin-top: 20vh !important;
+}
+.IndexFooter{
+    margin-top: -10vh !important;
 }
    /* ---media queries */
  
@@ -740,6 +747,9 @@ height: 72vh;
 
     margin-bottom: 5vh;
   }
+  .CopyText{
+    margin-top: -2vh;
+}
 
 
 
