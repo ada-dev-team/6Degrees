@@ -305,13 +305,13 @@ h4{
 /* Studio page */
 
 .StudioBlock{
-    margin-top: 6vh !important;
+    margin-top: -6vh !important;
 }
 
 /* contact page */
 
 .ContactBlock{
-    margin-top: 6vh !important;
+    margin-top: -6vh !important;
 }
 /* Portfolio Page */
 
@@ -480,6 +480,11 @@ font-size: 2em;
     width: 100vw;
     height: 40vh !important;
     margin-bottom: 2vh;
+}
+
+/* contact page */
+.ContactHeadingMobile{
+    padding-bottom: -25vh;
 }
 
    /* ---media queries */
