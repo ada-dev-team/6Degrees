@@ -487,6 +487,10 @@ font-size: 2em;
     padding-bottom: -25vh;
 }
 
+/* footer section contact page */
+.ContactFooter{
+    margin-top: 20vh !important;
+}
    /* ---media queries */
  
  /* // Extra small devices (portrait phones, less than 576px) */
@@ -576,7 +580,8 @@ font-size: 2em;
     z-index: 10;
 }
 
-/*The projects adding space */
+
+
 
 
 }
