@@ -513,7 +513,7 @@ font-size: 2em;
 
 /* All.html House Chettiar and Deattachable city image reduction on mobile view */
 /* .ReduceImagesMobile{
-    height: 30vh;
+    height: 40vh !important;
 } */
 
 
@@ -635,7 +635,7 @@ font-size: 2em;
         .IntialNavbar{
             background-color: white;
             height: 20vh;
-            margin-left: -3.2vh;
+            margin-left: -2.8vh;
         }
         .nav-link{
             color: gray;   
@@ -663,7 +663,8 @@ font-size: 2em;
     }
 
     .navbar-nav{
-        transform: translateX(616px);
+        transform: translateX(10vw);
+        float: right;
         
       }
       .SecondNav{
@@ -793,6 +794,10 @@ height: 72vh;
   /* landing page media icons:Buhle */
   .social{
     transform: translate(710px,695px);
+}
+
+.navbar-nav{
+    transform: translateX(41vw);
 }
 
 .show-on-mobile{
