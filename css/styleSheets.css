@@ -294,6 +294,10 @@ h4{
 /* Homepage Images */
 .HomePageImages{
     margin-top: 10vh;
+    display: block;
+}
+.DesktopHomepageImages{
+    display: none;
 }
 
 /* Portfolio page,About us and contact page:Lesedi */
@@ -504,7 +508,20 @@ font-size: 2em;
     width: 100vw !important;
     height: 40vh;
     margin-left: 0vw;
+    margin-top: 10vh;
 }
+
+/* All.html House Chettiar and Deattachable city image reduction on mobile view */
+/* .ReduceImagesMobile{
+    height: 30vh;
+} */
+
+
+
+
+
+
+
    /* ---media queries */
  
  /* // Extra small devices (portrait phones, less than 576px) */
@@ -761,7 +778,10 @@ height: 72vh;
 }
 /* index images */
 .HomePageImages{
-    margin-top: -2vh;
+    display: none;
+}
+.DesktopHomepageImages{
+    display: block;
 }
 
 
